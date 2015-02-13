@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~4.0",
-        "illuminate/validation": "~4.0",
+        "illuminate/support": "~5.0",
+        "illuminate/validation": "~5.0",
         "onlinerby/libphonenumber-for-php": "~7.1"
     },
     "suggest": {
