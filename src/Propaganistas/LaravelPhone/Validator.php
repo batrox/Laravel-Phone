@@ -12,8 +12,8 @@ class Validator
 		if (!empty($parameters)) {
 			$countries = $parameters;
 		}
-		elseif (isset($data[$attribute.'_country'])) {
-			$countries = array($data[$attribute.'_country']);
+		elseif (isset($data['country'])) {
+			$countries = array($data['country']);
 		}
 		else {
 			return FALSE;
