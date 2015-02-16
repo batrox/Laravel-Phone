@@ -1,5 +1,5 @@
 {
-    "name": "onlinerby/laravel-phone",
+    "name": "batrox/laravel-phone",
     "description": "Adds a phone validator to Laravel based on Google's libphonenumber API.",
     "keywords": ["laravel", "libphonenumber", "validation", "phone"],
     "license": "MIT",
@@ -9,17 +9,11 @@
             "email": "Propaganistas@users.noreply.github.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:onlinerby/libphonenumber-for-php.git"
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5.0",
         "illuminate/validation": "~5.0",
-        "onlinerby/libphonenumber-for-php": "~7.1"
+        "giggsey/libphonenumber-for-php": "~7.1"
     },
     "suggest": {
         "monarobase/country-list": "Adds a compatible (and fully translated) country list API."
